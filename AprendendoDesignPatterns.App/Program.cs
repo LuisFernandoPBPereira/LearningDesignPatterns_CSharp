@@ -4,4 +4,5 @@ using Strategy;
 //ExecucaoStrategy.ExecutarImpostoUseCase();
 //ExecucaoStrategy.ExecutarInvestimentoUseCase();
 
-ExecucaoChainOfResponsibility.ExecutarDescontoUseCase();
+//ExecucaoChainOfResponsibility.ExecutarDescontoUseCase();
+ExecucaoChainOfResponsibility.ExecutarContaBancariaUseCase();

@@ -1,5 +1,7 @@
 ﻿using ChainOfResponsibility.Imposto;
 using ChainOfResponsibility.Imposto.Entidades;
+using ChainOfResponsibility.RequisicaoContaBancaria;
+using ChainOfResponsibility.RequisicaoContaBancaria.Enums;
 
 namespace ChainOfResponsibility;
 
@@ -19,5 +21,16 @@ public static class ExecucaoChainOfResponsibility
         double desconto = calculadora.Calcular(orcamento);
 
         Console.WriteLine(desconto);
+    }
+
+    public static void ExecutarContaBancariaUseCase()
+    {
+        var requisicao = new Requisicao(E_Formato.PORCENTO);
+
+        var conta = new Conta("Fernando", 1000);
+
+        requisicao.Executar(conta);
+
+        Console.WriteLine("Arquivo criado");
     }
 }

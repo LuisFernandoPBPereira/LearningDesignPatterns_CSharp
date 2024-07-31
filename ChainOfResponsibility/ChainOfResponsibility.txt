@@ -1,0 +1,7 @@
+﻿CHAIN OF RESPONSIBILITY
+
+É usada para regras de negócio que dependem uma da outra.
+
+EXEMPLO:
+
+Determinado desconto só é aplicado se o anterior a ele não for válido para o caso.

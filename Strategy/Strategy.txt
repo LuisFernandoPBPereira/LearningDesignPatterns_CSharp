@@ -1,0 +1,9 @@
+STRATEGY
+
+Criar uma abstração para um tipo de estratégia de uma regra de negócio
+
+EXEMPLO:
+
+Precisamos calcular um imposto, mas a regra de negócio permite que vários impostos sejam calculados,
+com isso, devemos criar ums estratégia que vise encurtar linhas de verificação com a seguinte implementação:
+Usar uma abstração (interface) que contenha um método que realize a mesma operação para todos os casos

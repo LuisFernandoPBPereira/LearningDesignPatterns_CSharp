@@ -1,0 +1,5 @@
+﻿DECORATOR
+
+É usado para criar comportamentos complexos a partir de pequenos comportamentos simples.
+
+Podemos passar instâncias para construtores de outras instâncias para complementar funcionalidades.

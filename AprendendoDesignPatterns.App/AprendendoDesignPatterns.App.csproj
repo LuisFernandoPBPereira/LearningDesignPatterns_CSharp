@@ -9,9 +9,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BehavioralPatterns\ChainOfResponsibility\ChainOfResponsibility.csproj" />
+    <ProjectReference Include="..\BehavioralPatterns\State\State.csproj" />
     <ProjectReference Include="..\BehavioralPatterns\Strategy\Strategy.csproj" />
     <ProjectReference Include="..\BehavioralPatterns\TemplateMethod\TemplateMethod.csproj" />
-    <ProjectReference Include="..\State\State.csproj" />
     <ProjectReference Include="..\StructuralPatterns\Decorator\Decorator.csproj" />
   </ItemGroup>
 

@@ -1,7 +1,7 @@
-﻿using ChainOfResponsibility.Imposto;
-using ChainOfResponsibility.Imposto.Entidades;
-using ChainOfResponsibility.RequisicaoContaBancaria;
-using ChainOfResponsibility.RequisicaoContaBancaria.Enums;
+﻿using ChainOfResponsibility.UseCases.Imposto;
+using ChainOfResponsibility.UseCases.Imposto.Entidades;
+using ChainOfResponsibility.UseCases.RequisicaoContaBancaria;
+using ChainOfResponsibility.UseCases.RequisicaoContaBancaria.Enums;
 
 namespace ChainOfResponsibility;
 

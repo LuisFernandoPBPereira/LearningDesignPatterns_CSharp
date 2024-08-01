@@ -1,5 +1,5 @@
-﻿using Decorator.ImpostoUseCase.Entidades;
-using Decorator.ImpostoUseCase.Entidades.Impostos;
+﻿using Decorator.UseCases.ImpostoUseCase.Entidades;
+using Decorator.UseCases.ImpostoUseCase.Entidades.Impostos;
 
 namespace Decorator;
 

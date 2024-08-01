@@ -1,5 +1,5 @@
-﻿using Strategy.Imposto;
-using Strategy.Investimento;
+﻿using Strategy.UseCases.Imposto;
+using Strategy.UseCases.Investimento;
 
 namespace Strategy;
 

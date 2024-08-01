@@ -1,9 +1,9 @@
-﻿using TemplateMethod.Imposto;
-using TemplateMethod.Imposto.Entidades;
-using TemplateMethod.Imposto.Entidades.Impostos;
-using TemplateMethod.Imposto.Interfaces;
-using TemplateMethod.Relatorio;
-using TemplateMethod.Relatorio.Entidades;
+﻿using TemplateMethod.UseCases.Imposto;
+using TemplateMethod.UseCases.Imposto.Entidades;
+using TemplateMethod.UseCases.Imposto.Entidades.Impostos;
+using TemplateMethod.UseCases.Imposto.Interfaces;
+using TemplateMethod.UseCases.Relatorio;
+using TemplateMethod.UseCases.Relatorio.Entidades;
 
 namespace TemplateMethod;
 

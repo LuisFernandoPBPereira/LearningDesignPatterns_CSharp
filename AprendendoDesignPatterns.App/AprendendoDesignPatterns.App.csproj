@@ -10,6 +10,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ChainOfResponsibility\ChainOfResponsibility.csproj" />
     <ProjectReference Include="..\Strategy\Strategy.csproj" />
+    <ProjectReference Include="..\TemplateMethod\TemplateMethod.csproj" />
   </ItemGroup>
 
 </Project>

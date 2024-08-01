@@ -23,4 +23,19 @@ public static class ExecucaoTemplateMethod
 
         Console.WriteLine(impostoCalculado);
     }
+    
+    public static void ExecutarImpostoIHITUseCase()
+    {
+        IImposto ihit = new IHIT();
+
+        Orcamento orcamento = new Orcamento(10000);
+        orcamento.AdicionarItem(new Item("Xbox", 2000));
+        orcamento.AdicionarItem(new Item("Xbox", 2000));
+
+        CalculadoraDeImpostos calculadora = new CalculadoraDeImpostos();
+
+        var impostoCalculado = calculadora.Calcula(orcamento, ihit);
+
+        Console.WriteLine(impostoCalculado);
+    }
 }

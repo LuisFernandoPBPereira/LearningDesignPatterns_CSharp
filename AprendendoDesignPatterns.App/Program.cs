@@ -8,4 +8,5 @@ using TemplateMethod;
 //ExecucaoChainOfResponsibility.ExecutarDescontoUseCase();
 //ExecucaoChainOfResponsibility.ExecutarContaBancariaUseCase();
 
-ExecucaoTemplateMethod.ExecutarImpostoUseCase();
+//ExecucaoTemplateMethod.ExecutarImpostoUseCase();
+ExecucaoTemplateMethod.ExecutarImpostoIHITUseCase();

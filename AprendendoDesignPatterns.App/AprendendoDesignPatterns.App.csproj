@@ -8,9 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ChainOfResponsibility\ChainOfResponsibility.csproj" />
-    <ProjectReference Include="..\Strategy\Strategy.csproj" />
-    <ProjectReference Include="..\TemplateMethod\TemplateMethod.csproj" />
+    <ProjectReference Include="..\BehavioralPatterns\ChainOfResponsibility\ChainOfResponsibility.csproj" />
+    <ProjectReference Include="..\BehavioralPatterns\Strategy\Strategy.csproj" />
+    <ProjectReference Include="..\BehavioralPatterns\TemplateMethod\TemplateMethod.csproj" />
+    <ProjectReference Include="..\StructuralPatterns\Decorator\Decorator.csproj" />
   </ItemGroup>
 
 </Project>

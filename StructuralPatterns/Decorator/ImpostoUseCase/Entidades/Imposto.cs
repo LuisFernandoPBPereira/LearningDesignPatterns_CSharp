@@ -1,13 +1,10 @@
-﻿
-using Decorator.ImpostoUseCase.Entidades;
-
-namespace Decorator.ImpostoUseCase;
+﻿namespace Decorator.ImpostoUseCase.Entidades;
 
 public abstract class Imposto
 {
     public Imposto OutroImposto { get; set; }
 
-    protected Imposto() 
+    protected Imposto()
     {
         OutroImposto = null;
     }

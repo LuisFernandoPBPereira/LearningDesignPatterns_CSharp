@@ -1,8 +1,8 @@
-﻿namespace Decorator.ImpostoUseCase.Entidades;
+﻿namespace Decorator.ImpostoUseCase.Entidades.Impostos;
 public class ICCC : Imposto
 {
-    public ICCC(Imposto outroImposto) : base(outroImposto){}
-    public ICCC() : base(){}
+    public ICCC(Imposto outroImposto) : base(outroImposto) { }
+    public ICCC() : base() { }
 
     public override double Calcula(Orcamento orcamento)
     {

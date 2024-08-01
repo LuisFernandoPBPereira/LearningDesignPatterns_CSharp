@@ -1,5 +1,5 @@
-﻿using Decorator.ImpostoUseCase;
-using Decorator.ImpostoUseCase.Entidades;
+﻿using Decorator.ImpostoUseCase.Entidades;
+using Decorator.ImpostoUseCase.Entidades.Impostos;
 
 namespace Decorator;
 
@@ -7,11 +7,11 @@ public static class ExecucaoDecorator
 {
     public static void ExecutarImpostoUseCase()
     {
-        Imposto iss = new ISS(new ICMS(new ICCC()));
+        Imposto impostoMuitoAlto = new ImpostoMuitoAlto(new ICMS(new ICPP(new IKCV(new ICCC()))));
 
         Orcamento orcamento = new Orcamento(500);
 
-        var impostoCalculado = iss.Calcula(orcamento);
+        var impostoCalculado = impostoMuitoAlto.Calcula(orcamento);
 
         Console.WriteLine(impostoCalculado);
     }

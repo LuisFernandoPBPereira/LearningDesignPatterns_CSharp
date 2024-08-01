@@ -1,9 +1,9 @@
-﻿namespace Decorator.ImpostoUseCase.Entidades;
+﻿namespace Decorator.ImpostoUseCase.Entidades.Impostos;
 
 public class ISS : Imposto
 {
-    public ISS(Imposto outroImposto) : base(outroImposto){}
-    public ISS() : base(){}
+    public ISS(Imposto outroImposto) : base(outroImposto) { }
+    public ISS() : base() { }
 
     public override double Calcula(Orcamento orcamento)
     {

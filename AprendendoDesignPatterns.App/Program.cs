@@ -13,4 +13,5 @@ using TemplateMethod;
 //ExecucaoTemplateMethod.ExecutarImpostoIHITUseCase();
 //ExecucaoTemplateMethod.ExecutarRelatorioUseCase();
 
-ExecucaoDecorator.ExecutarImpostoUseCase();
+//ExecucaoDecorator.ExecutarImpostoUseCase();
+ExecucaoDecorator.ExecutarFiltroUseCase();

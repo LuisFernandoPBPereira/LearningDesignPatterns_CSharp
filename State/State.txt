@@ -1,0 +1,4 @@
+﻿STATE
+
+Usamos State quando determinada funcionalidade possui vários estados, e em cada estado essa funcionalidade se comporta
+de maneira diferente, então precisamos segregar esses estados em diferentes implementações da mesma abstração

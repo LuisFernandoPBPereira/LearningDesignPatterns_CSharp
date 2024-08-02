@@ -1,4 +1,5 @@
-﻿using ChainOfResponsibility;
+﻿using Builder;
+using ChainOfResponsibility;
 using Decorator;
 using State;
 using Strategy;
@@ -18,4 +19,6 @@ using TemplateMethod;
 //ExecucaoDecorator.ExecutarFiltroUseCase();
 
 //ExecucaoState.ExecutarOrcamentoUseCase();
-ExecucaoState.ExecutarContaUseCase();
+//ExecucaoState.ExecutarContaUseCase();
+
+ExecucaoBuilder.ExecutarNotaFiscalUseCase();

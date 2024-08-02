@@ -12,6 +12,7 @@
     <ProjectReference Include="..\BehavioralPatterns\State\State.csproj" />
     <ProjectReference Include="..\BehavioralPatterns\Strategy\Strategy.csproj" />
     <ProjectReference Include="..\BehavioralPatterns\TemplateMethod\TemplateMethod.csproj" />
+    <ProjectReference Include="..\CreationalPatterns\Builder\Builder.csproj" />
     <ProjectReference Include="..\StructuralPatterns\Decorator\Decorator.csproj" />
   </ItemGroup>
 

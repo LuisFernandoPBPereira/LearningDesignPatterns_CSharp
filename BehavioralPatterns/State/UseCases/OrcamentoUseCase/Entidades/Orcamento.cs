@@ -1,7 +1,7 @@
-﻿using State.Abstracao;
-using State.Estados;
+﻿using State.UseCases.OrcamentoUseCase.Abstracao;
+using State.UseCases.OrcamentoUseCase.Estados;
 
-namespace State.Entidades;
+namespace State.UseCases.OrcamentoUseCase.Entidades;
 
 public class Orcamento
 {

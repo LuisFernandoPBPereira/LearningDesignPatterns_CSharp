@@ -17,4 +17,5 @@ using TemplateMethod;
 //ExecucaoDecorator.ExecutarImpostoUseCase();
 //ExecucaoDecorator.ExecutarFiltroUseCase();
 
-ExecucaoState.ExecutarOrcamentoUseCase();
+//ExecucaoState.ExecutarOrcamentoUseCase();
+ExecucaoState.ExecutarContaUseCase();

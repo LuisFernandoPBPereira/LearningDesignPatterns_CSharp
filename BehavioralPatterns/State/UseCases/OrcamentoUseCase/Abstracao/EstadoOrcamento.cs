@@ -1,6 +1,6 @@
-﻿using State.Entidades;
+﻿using State.UseCases.OrcamentoUseCase.Entidades;
 
-namespace State.Abstracao;
+namespace State.UseCases.OrcamentoUseCase.Abstracao;
 
 public abstract class EstadoOrcamento
 {

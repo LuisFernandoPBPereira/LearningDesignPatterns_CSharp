@@ -1,4 +1,4 @@
-﻿namespace State.Entidades;
+﻿namespace State.UseCases.OrcamentoUseCase.Entidades;
 
 public class Item
 {

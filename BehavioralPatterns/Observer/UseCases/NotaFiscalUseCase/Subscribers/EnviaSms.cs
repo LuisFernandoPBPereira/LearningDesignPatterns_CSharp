@@ -7,6 +7,6 @@ public class EnviaSms : IAcaoNotaFiscalGerada
 {
     public void Executar(NotaFiscal notaFiscal)
     {
-        Console.WriteLine("SMS");
+        Console.WriteLine("Evento Disparado: SMS");
     }
 }

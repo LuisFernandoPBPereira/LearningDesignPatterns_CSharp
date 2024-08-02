@@ -7,6 +7,6 @@ public class EnviaEmail : IAcaoNotaFiscalGerada
 {
     public void Executar(NotaFiscal notaFiscal)
     {
-        Console.WriteLine("email");
+        Console.WriteLine("Evento Disparado: email");
     }
 }

@@ -32,15 +32,15 @@ public class NotaFiscal
     {
         Console.WriteLine("====== Nota Fiscal ======");
         Console.WriteLine();
-        Console.WriteLine(RazaoSocial);
-        Console.WriteLine(Cnpj);
-        Console.WriteLine(DataEmissao);
-        Console.WriteLine(ValorBruto);
-        Console.WriteLine(Impostos);
+        Console.WriteLine($"Razão Social: {RazaoSocial}");
+        Console.WriteLine($"CNPJ: {Cnpj}");
+        Console.WriteLine($"Data de Emissão: {DataEmissao}");
+        Console.WriteLine($"Valor Bruto: {ValorBruto}");
+        Console.WriteLine($"Impostos: {Impostos}");
 
         MostrarItensDaNota();
 
-        Console.WriteLine(Observacao);
+        Console.WriteLine($"Observação: {Observacao}");
         Console.WriteLine();
         Console.WriteLine("=========================");
     }
@@ -48,15 +48,15 @@ public class NotaFiscal
     private void MostrarItensDaNota()
     {
         Console.WriteLine();
-        Console.WriteLine("===== Itens da Nota =====");
+        Console.WriteLine("----- Itens da Nota -----");
 
         foreach (var item in Itens)
         {
-            Console.WriteLine(item.Nome);
-            Console.WriteLine(item.Valor);
+            Console.WriteLine($"Nome: {item.Nome}");
+            Console.WriteLine($"Valor: {item.Valor}");
             Console.WriteLine();
         }
-        Console.WriteLine("=========================");
+        Console.WriteLine("-------------------------");
         Console.WriteLine();
     }
 }

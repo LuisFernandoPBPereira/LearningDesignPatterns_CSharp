@@ -7,6 +7,6 @@ public class SalvaNoBanco : IAcaoNotaFiscalGerada
 {
     public void Executar(NotaFiscal notaFiscal)
     {
-        Console.WriteLine("Banco de Dados");
+        Console.WriteLine("Evento Disparado: Banco de Dados");
     }
 }

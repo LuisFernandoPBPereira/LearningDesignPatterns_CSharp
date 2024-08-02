@@ -26,6 +26,7 @@ public static class ExecucaoObserver
         notaFiscalBuilder.AdicionaAcao(new EnviaEmail());
         notaFiscalBuilder.AdicionaAcao(new EnviaSms());
         notaFiscalBuilder.AdicionaAcao(new SalvaNoBanco());
+        notaFiscalBuilder.AdicionaAcao(new Multiplicador(10));
 
         var notaFiscal = notaFiscalBuilder.Build();
 

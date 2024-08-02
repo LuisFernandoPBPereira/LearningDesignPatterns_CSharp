@@ -1,0 +1,4 @@
+﻿ABSTRACT FACTORY
+
+É usada quando temos objetos que fazem a mesma ação, porém com características diferentes, onde a implementação
+não conhece a abstração e nem de onde vem.

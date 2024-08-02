@@ -1,0 +1,4 @@
+﻿FACTORY METHOD
+
+É usado para eliminar instâncias de objetos onde elas serão executadas, deixa o código mais semântico,
+além de proporcionar abstrações para comportamentos semelhantes.

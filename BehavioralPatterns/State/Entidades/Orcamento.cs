@@ -1,11 +1,11 @@
-﻿using State.Estados;
-using State.Interfaces;
+﻿using State.Abstracao;
+using State.Estados;
 
 namespace State.Entidades;
 
 public class Orcamento
 {
-    public IEstadoOrcamento EstadoAtual { get; set; }
+    public EstadoOrcamento EstadoAtual { get; set; }
     public double Valor { get; set; }
     public IList<Item> Itens { get; private set; }
 

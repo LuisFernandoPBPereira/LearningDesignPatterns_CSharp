@@ -1,26 +1,21 @@
-﻿using State.Entidades;
-using State.Interfaces;
+﻿using State.Abstracao;
+using State.Entidades;
 
 namespace State.Estados;
 
-public class EmAprovacao : IEstadoOrcamento
+public class EmAprovacao : EstadoOrcamento
 {
-    public void AplicaDescontoExtra(Orcamento orcamento)
+    public override void AplicaDescontoExtra(Orcamento orcamento)
     {
         orcamento.Valor -= orcamento.Valor * 0.05;
     }
 
-    public void Aprova(Orcamento orcamento)
+    public override void Aprova(Orcamento orcamento)
     {
         orcamento.EstadoAtual = new Aprovado();
     }
 
-    public void Finaliza(Orcamento orcamento)
-    {
-        throw new Exception("O orçamento não pode ser finalizado quando estive em aprovação");
-    }
-
-    public void Reprova(Orcamento orcamento)
+    public override void Reprova(Orcamento orcamento)
     {
         orcamento.EstadoAtual = new Reprovado();
     }

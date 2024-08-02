@@ -1,0 +1,10 @@
+﻿OBSERVER
+
+É usado onde precisamos de um serviço que emita eventos para interessados.
+
+Temos um publisher (que envia) e subscirbers (que recebem)
+
+==========================================================================================================
+
+No exemplo utilizado nesse código, NotaFiscalBuilder é o publisher, que contém uma lista de subscribers;
+E os subscribers são EnviaEmail, EnviaSms e SalvaNoBanco.

@@ -8,6 +8,7 @@ public class EmAprovacao : EstadoOrcamento
     public override void AplicaDescontoExtra(Orcamento orcamento)
     {
         orcamento.Valor -= orcamento.Valor * 0.05;
+        orcamento.DescontosEmAprovacao++;
     }
 
     public override void Aprova(Orcamento orcamento)

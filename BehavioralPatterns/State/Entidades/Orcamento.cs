@@ -8,6 +8,9 @@ public class Orcamento
     public EstadoOrcamento EstadoAtual { get; set; }
     public double Valor { get; set; }
     public IList<Item> Itens { get; private set; }
+    public int DescontosEmAprovacao { get; set; }
+    public int DescontosAprovado { get; set; }
+
 
     public Orcamento(double valor)
     {
@@ -23,6 +26,9 @@ public class Orcamento
 
     public void AplicaDescontoExtra()
     {
+        if (DescontosAprovado == 1 || DescontosEmAprovacao == 1)
+            throw new Exception("Não é possível aplicar o mesmo desconto 2 vezes");
+
         EstadoAtual.AplicaDescontoExtra(this);
     }
 

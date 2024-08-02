@@ -12,6 +12,7 @@ public static class ExecucaoState
             Console.WriteLine(orcamento.Valor);
 
             orcamento.AplicaDescontoExtra();
+            orcamento.AplicaDescontoExtra();
             Console.WriteLine(orcamento.Valor);
 
             orcamento.Aprova();

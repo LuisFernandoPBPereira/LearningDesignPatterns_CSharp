@@ -19,7 +19,6 @@ public static class ExecucaoBuilder
             .ParaEmpresa("empresa tal")
             .ComCnpj("000000000000")
             .ComItem(item)
-            .NaDataAtual()
             .ComObservacao("Observação");
 
         var notaFiscal = notaFiscalBuilder.Build();

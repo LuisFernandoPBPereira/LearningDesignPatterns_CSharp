@@ -5,7 +5,7 @@ public class NotaFiscal
     public NotaFiscal(
         string razaoSocial,
         string cnpj,
-        DateTime dataEmissao,
+        DateTime? dataEmissao,
         double valorBruto,
         double impostos,
         List<ItemDaNota> itens,
@@ -13,7 +13,7 @@ public class NotaFiscal
     {
         RazaoSocial = razaoSocial;
         Cnpj = cnpj;
-        DataEmissao = dataEmissao;
+        DataEmissao = dataEmissao ?? DateTime.Now;
         ValorBruto = valorBruto;
         Impostos = impostos;
         Itens = itens;

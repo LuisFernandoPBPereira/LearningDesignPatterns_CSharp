@@ -6,7 +6,7 @@ public class NotaFiscalBuilder
 {
     private string RazaoSocial { get; set; } = string.Empty;
     private string Cnpj { get; set; } = string.Empty;
-    private DateTime DataEmissao { get; set; }
+    private DateTime? DataEmissao { get; set; }
     private double ValorBruto { get; set; }
     private double Impostos { get; set; }
     private List<ItemDaNota> Itens { get; set; } = [];
@@ -29,9 +29,21 @@ public class NotaFiscalBuilder
         return this;
     }
 
-    public NotaFiscalBuilder NaDataAtual()
+    public NotaFiscalBuilder NaData(string data)
     {
-        DataEmissao = DateTime.Now;
+
+        DateTime dataConvertida;
+
+        var dataValida = DateTime.TryParse(data, out dataConvertida);
+        
+        if(dataValida is false)
+            throw new Exception("Data está no formato incorreto");
+            
+        if (data.Equals(string.Empty))
+            throw new Exception("Data está no formato incorreto");
+
+        DataEmissao = dataConvertida;
+
         return this;
     }
 

@@ -1,6 +1,7 @@
 ﻿using Builder;
 using ChainOfResponsibility;
 using Decorator;
+using FactoryMethod;
 using Observer;
 using State;
 using Strategy;
@@ -24,4 +25,6 @@ using TemplateMethod;
 
 //ExecucaoBuilder.ExecutarNotaFiscalUseCase();
 
-ExecucaoObserver.ExecutarNotaFiscalUseCase();
+//ExecucaoObserver.ExecutarNotaFiscalUseCase();
+
+ExecucaoFactoryMethod.ExecutarLogisticaUseCase();

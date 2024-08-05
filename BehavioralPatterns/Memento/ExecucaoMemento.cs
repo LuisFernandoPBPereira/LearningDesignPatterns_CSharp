@@ -19,6 +19,9 @@ public static class ExecucaoMemento
 
             contrato.Avanca();
             historico.Adiciona(contrato);
+            
+            contrato.Avanca();
+            historico.Adiciona(contrato);
 
             Console.WriteLine(contrato.TipoContrato);
 

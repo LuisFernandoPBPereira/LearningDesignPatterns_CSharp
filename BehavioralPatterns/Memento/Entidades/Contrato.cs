@@ -16,7 +16,8 @@ public class Contrato
     public void Avanca()
     {
         if (TipoContrato == TipoContrato.Novo) TipoContrato = TipoContrato.EmAndamento;
-        else if (TipoContrato == TipoContrato.EmAndamento) TipoContrato = TipoContrato.Concluido;
+        else if (TipoContrato == TipoContrato.EmAndamento) TipoContrato = TipoContrato.Acertado;
+        else if (TipoContrato == TipoContrato.Acertado) TipoContrato = TipoContrato.Concluido;
         else if (TipoContrato == TipoContrato.Concluido) throw new Exception("Contrato já está concluído");
     }
 }

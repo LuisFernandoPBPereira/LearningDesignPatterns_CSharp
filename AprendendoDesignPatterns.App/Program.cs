@@ -1,4 +1,5 @@
 ﻿using AbstractFactory;
+using Bridge;
 using Builder;
 using ChainOfResponsibility;
 using Decorator;
@@ -42,4 +43,6 @@ using Visitor;
 
 //ExecucaoInterpreter.ExecutarExpressaoUseCase();
 
-ExecucaoVisitor.ExecutarExpressaoUseCase();
+//ExecucaoVisitor.ExecutarExpressaoUseCase();
+
+ExecucaoBridge.ExecutarEmailUseCase();

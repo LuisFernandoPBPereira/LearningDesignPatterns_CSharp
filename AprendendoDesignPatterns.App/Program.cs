@@ -3,6 +3,7 @@ using Builder;
 using ChainOfResponsibility;
 using Decorator;
 using FactoryMethod;
+using Flyweight;
 using Observer;
 using State;
 using Strategy;
@@ -30,4 +31,6 @@ using TemplateMethod;
 
 //ExecucaoFactoryMethod.ExecutarLogisticaUseCase();
 
-ExecucaoAbstractMethod.ExecutarFabricaDeMoveisUseCase();
+//ExecucaoAbstractMethod.ExecutarFabricaDeMoveisUseCase();
+
+ExecucaoFlyweight.ExecutarNotasUseCase();

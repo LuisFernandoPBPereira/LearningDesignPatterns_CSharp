@@ -1,0 +1,4 @@
+﻿FLYWEIGHT
+
+É usado quando precisamos de um objeto várias vezes, então compartilhamos a mesma instância para várias situações,
+economizando memória e processamento.

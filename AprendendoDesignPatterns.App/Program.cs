@@ -4,6 +4,7 @@ using ChainOfResponsibility;
 using Decorator;
 using FactoryMethod;
 using Flyweight;
+using Memento;
 using Observer;
 using State;
 using Strategy;
@@ -33,4 +34,6 @@ using TemplateMethod;
 
 //ExecucaoAbstractMethod.ExecutarFabricaDeMoveisUseCase();
 
-ExecucaoFlyweight.ExecutarNotasUseCase();
+//ExecucaoFlyweight.ExecutarNotasUseCase();
+
+ExecucaoMemento.ExecutarContratoUseCase();

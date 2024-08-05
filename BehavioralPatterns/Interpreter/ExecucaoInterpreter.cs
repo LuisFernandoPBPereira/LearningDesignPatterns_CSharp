@@ -12,7 +12,12 @@ public static class ExecucaoInterpreter
 
         var soma = new Soma(expressaoEsquerda, expressaoDireita);
 
+        var divisao = new Divisao(new Numero(10), new Numero(2));
+        var multiplicacao = new Multiplicacao(new Numero(10), new Numero(2));
+
         Console.WriteLine(soma.Avalia());
+        Console.WriteLine(divisao.Avalia());
+        Console.WriteLine(multiplicacao.Avalia());
 
         #region System.Linq.Expression: Intepreter
 

@@ -10,6 +10,7 @@ using Observer;
 using State;
 using Strategy;
 using TemplateMethod;
+using Visitor;
 
 //ExecucaoStrategy.ExecutarImpostoUseCase();
 //ExecucaoStrategy.ExecutarInvestimentoUseCase();
@@ -39,4 +40,6 @@ using TemplateMethod;
 
 //ExecucaoMemento.ExecutarContratoUseCase();
 
-ExecucaoInterpreter.ExecutarExpressaoUseCase();
+//ExecucaoInterpreter.ExecutarExpressaoUseCase();
+
+ExecucaoVisitor.ExecutarExpressaoUseCase();

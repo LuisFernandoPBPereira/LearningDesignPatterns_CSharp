@@ -14,10 +14,12 @@ public static class ExecucaoInterpreter
 
         var divisao = new Divisao(new Numero(10), new Numero(2));
         var multiplicacao = new Multiplicacao(new Numero(10), new Numero(2));
+        var racionalizacao = new RaizQuadrada(new Numero(9));
 
         Console.WriteLine(soma.Avalia());
         Console.WriteLine(divisao.Avalia());
         Console.WriteLine(multiplicacao.Avalia());
+        Console.WriteLine(racionalizacao.Avalia());
 
         #region System.Linq.Expression: Intepreter
 

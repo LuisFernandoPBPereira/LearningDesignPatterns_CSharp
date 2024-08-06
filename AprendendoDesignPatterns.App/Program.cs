@@ -10,6 +10,7 @@ using Flyweight;
 using Interpreter;
 using Memento;
 using Observer;
+using Singleton;
 using State;
 using Strategy;
 using TemplateMethod;
@@ -51,4 +52,6 @@ using Visitor;
 
 //ExecucaoCommand.ExecutarFilaDePedidosUseCase();
 
-ExecucaoAdapter.ExecutarSerializacaoXmlUseCase();
+//ExecucaoAdapter.ExecutarSerializacaoXmlUseCase();
+
+ExecucaoSingleton.ExecutarConfiguracaoUseCase();

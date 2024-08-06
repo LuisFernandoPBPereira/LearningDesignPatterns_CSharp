@@ -5,6 +5,7 @@ using Builder;
 using ChainOfResponsibility;
 using Command;
 using Decorator;
+using Facade;
 using FactoryMethod;
 using Flyweight;
 using Interpreter;
@@ -54,4 +55,6 @@ using Visitor;
 
 //ExecucaoAdapter.ExecutarSerializacaoXmlUseCase();
 
-ExecucaoSingleton.ExecutarConfiguracaoUseCase();
+//ExecucaoSingleton.ExecutarConfiguracaoUseCase();
+
+ExecucaoFacade.ExecutarRestauranteUseCase();

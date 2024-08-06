@@ -2,6 +2,7 @@
 using Bridge;
 using Builder;
 using ChainOfResponsibility;
+using Command;
 using Decorator;
 using FactoryMethod;
 using Flyweight;
@@ -45,4 +46,6 @@ using Visitor;
 
 //ExecucaoVisitor.ExecutarExpressaoUseCase();
 
-ExecucaoBridge.ExecutarEnviadorDeMensagemUseCase();
+//ExecucaoBridge.ExecutarEnviadorDeMensagemUseCase();
+
+ExecucaoCommand.ExecutarFilaDePedidosUseCase();

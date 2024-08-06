@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BehavioralPatterns\ChainOfResponsibility\ChainOfResponsibility.csproj" />
+    <ProjectReference Include="..\BehavioralPatterns\Command\Command.csproj" />
     <ProjectReference Include="..\BehavioralPatterns\Interpreter\Interpreter.csproj" />
     <ProjectReference Include="..\BehavioralPatterns\Memento\Memento.csproj" />
     <ProjectReference Include="..\BehavioralPatterns\Observer\Observer.csproj" />

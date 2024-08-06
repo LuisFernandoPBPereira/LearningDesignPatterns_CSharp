@@ -1,0 +1,3 @@
+﻿COMMAND
+
+Transforma uma solicitação (requisição) em um objeto independente que contém todas as informações sobre essa solicitação.

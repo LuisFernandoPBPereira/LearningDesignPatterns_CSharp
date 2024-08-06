@@ -45,4 +45,4 @@ using Visitor;
 
 //ExecucaoVisitor.ExecutarExpressaoUseCase();
 
-ExecucaoBridge.ExecutarEmailUseCase();
+ExecucaoBridge.ExecutarEnviadorDeMensagemUseCase();

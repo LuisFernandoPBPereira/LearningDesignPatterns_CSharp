@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "CreationalPatt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "StructuralPatterns\Facade\Facade.csproj", "{203E7BD1-8299-4DE1-8EC2-82D2C7389BC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "BehavioralPatterns\Iterator\Iterator.csproj", "{D2FBB69F-4130-4ED6-B7DF-39C518D06B72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{203E7BD1-8299-4DE1-8EC2-82D2C7389BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{203E7BD1-8299-4DE1-8EC2-82D2C7389BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{203E7BD1-8299-4DE1-8EC2-82D2C7389BC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2FBB69F-4130-4ED6-B7DF-39C518D06B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2FBB69F-4130-4ED6-B7DF-39C518D06B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2FBB69F-4130-4ED6-B7DF-39C518D06B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2FBB69F-4130-4ED6-B7DF-39C518D06B72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -152,6 +158,7 @@ Global
 		{B51F0281-69F5-473E-A742-546BDE4BD5CE} = {FE5B211D-3BC3-4402-85AF-E3CED1CD570E}
 		{725BC8F2-C0F3-4FDC-8A3B-718CF90E421C} = {4D54B577-54A4-4A8A-B8A7-A05D9939051E}
 		{203E7BD1-8299-4DE1-8EC2-82D2C7389BC5} = {FE5B211D-3BC3-4402-85AF-E3CED1CD570E}
+		{D2FBB69F-4130-4ED6-B7DF-39C518D06B72} = {81FBA89A-4C07-4BEF-A578-C8B06746BA04}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8DFD1850-3D15-42E9-8E14-8D93779C42BE}

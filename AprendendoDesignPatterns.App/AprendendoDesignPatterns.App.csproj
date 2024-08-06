@@ -20,6 +20,7 @@
     <ProjectReference Include="..\CreationalPatterns\AbstractFactory\AbstractFactory.csproj" />
     <ProjectReference Include="..\CreationalPatterns\Builder\Builder.csproj" />
     <ProjectReference Include="..\CreationalPatterns\FactoryMethod\FactoryMethod.csproj" />
+    <ProjectReference Include="..\StructuralPatterns\Adapter\Adapter.csproj" />
     <ProjectReference Include="..\StructuralPatterns\Bridge\Bridge.csproj" />
     <ProjectReference Include="..\StructuralPatterns\Decorator\Decorator.csproj" />
     <ProjectReference Include="..\StructuralPatterns\Flyweight\Flyweight.csproj" />

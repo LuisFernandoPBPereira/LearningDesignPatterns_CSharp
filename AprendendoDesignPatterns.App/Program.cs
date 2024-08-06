@@ -1,4 +1,5 @@
 ﻿using AbstractFactory;
+using Adapter;
 using Bridge;
 using Builder;
 using ChainOfResponsibility;
@@ -48,4 +49,6 @@ using Visitor;
 
 //ExecucaoBridge.ExecutarEnviadorDeMensagemUseCase();
 
-ExecucaoCommand.ExecutarFilaDePedidosUseCase();
+//ExecucaoCommand.ExecutarFilaDePedidosUseCase();
+
+ExecucaoAdapter.ExecutarSerializacaoXmlUseCase();

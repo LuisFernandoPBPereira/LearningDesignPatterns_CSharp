@@ -9,6 +9,7 @@ using Facade;
 using FactoryMethod;
 using Flyweight;
 using Interpreter;
+using Iterator;
 using Memento;
 using Observer;
 using Singleton;
@@ -57,4 +58,6 @@ using Visitor;
 
 //ExecucaoSingleton.ExecutarConfiguracaoUseCase();
 
-ExecucaoFacade.ExecutarRestauranteUseCase();
+//ExecucaoFacade.ExecutarRestauranteUseCase();
+
+ExecucaoIterator.ExecutarUseCase();

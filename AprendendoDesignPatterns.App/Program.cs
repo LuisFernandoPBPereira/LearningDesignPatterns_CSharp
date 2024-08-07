@@ -13,6 +13,7 @@ using Interpreter;
 using Iterator;
 using Memento;
 using Observer;
+using Proxy;
 using Singleton;
 using State;
 using Strategy;
@@ -63,4 +64,6 @@ using Visitor;
 
 //ExecucaoIterator.ExecutarUseCase();
 
-ExecucaoComposite.ExecutarCaixaProdutoUseCase();
+//ExecucaoComposite.ExecutarCaixaProdutoUseCase();
+
+ExecucaoProxy.ExecutarExemploUseCase();

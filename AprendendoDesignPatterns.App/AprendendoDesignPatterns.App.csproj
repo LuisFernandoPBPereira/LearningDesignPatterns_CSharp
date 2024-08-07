@@ -28,6 +28,7 @@
     <ProjectReference Include="..\StructuralPatterns\Decorator\Decorator.csproj" />
     <ProjectReference Include="..\StructuralPatterns\Facade\Facade.csproj" />
     <ProjectReference Include="..\StructuralPatterns\Flyweight\Flyweight.csproj" />
+    <ProjectReference Include="..\StructuralPatterns\Proxy\Proxy.csproj" />
   </ItemGroup>
 
 </Project>

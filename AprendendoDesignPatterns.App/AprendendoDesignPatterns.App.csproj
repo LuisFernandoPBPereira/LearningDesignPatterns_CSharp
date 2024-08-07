@@ -24,6 +24,7 @@
     <ProjectReference Include="..\CreationalPatterns\Singleton\Singleton.csproj" />
     <ProjectReference Include="..\StructuralPatterns\Adapter\Adapter.csproj" />
     <ProjectReference Include="..\StructuralPatterns\Bridge\Bridge.csproj" />
+    <ProjectReference Include="..\StructuralPatterns\Composite\Composite.csproj" />
     <ProjectReference Include="..\StructuralPatterns\Decorator\Decorator.csproj" />
     <ProjectReference Include="..\StructuralPatterns\Facade\Facade.csproj" />
     <ProjectReference Include="..\StructuralPatterns\Flyweight\Flyweight.csproj" />

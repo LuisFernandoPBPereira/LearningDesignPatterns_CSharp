@@ -4,6 +4,7 @@ using Bridge;
 using Builder;
 using ChainOfResponsibility;
 using Command;
+using Composite;
 using Decorator;
 using Facade;
 using FactoryMethod;
@@ -60,4 +61,6 @@ using Visitor;
 
 //ExecucaoFacade.ExecutarRestauranteUseCase();
 
-ExecucaoIterator.ExecutarUseCase();
+//ExecucaoIterator.ExecutarUseCase();
+
+ExecucaoComposite.ExecutarCaixaProdutoUseCase();

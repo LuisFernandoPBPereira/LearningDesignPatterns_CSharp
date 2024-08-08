@@ -1,4 +1,6 @@
-﻿namespace Prototype.Entidades;
+﻿using Prototype.Interfaces;
+
+namespace Prototype.Entidades;
 
 public class CarroPrototype : IPrototype
 {

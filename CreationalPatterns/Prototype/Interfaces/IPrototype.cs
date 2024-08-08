@@ -1,6 +1,6 @@
 ﻿using Prototype.Entidades;
 
-namespace Prototype;
+namespace Prototype.Interfaces;
 
 public interface IPrototype
 {

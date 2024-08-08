@@ -1,0 +1,3 @@
+﻿MEDIATOR
+
+É usado para cortar a comunicação direta entre objetos, permitindo reusá-los em outras classes.

@@ -11,6 +11,7 @@ using FactoryMethod;
 using Flyweight;
 using Interpreter;
 using Iterator;
+using Mediator;
 using Memento;
 using Observer;
 using Proxy;
@@ -64,6 +65,8 @@ using Visitor;
 
 //ExecucaoIterator.ExecutarUseCase();
 
-//ExecucaoComposite.ExecutarCaixaProdutoUseCase();
+ExecucaoComposite.ExecutarCaixaProdutoUseCase();
 
-ExecucaoProxy.ExecutarExemploUseCase();
+//ExecucaoProxy.ExecutarExemploUseCase();
+
+//ExecucaoMediator.ExecutarCalculadoraUseCase();

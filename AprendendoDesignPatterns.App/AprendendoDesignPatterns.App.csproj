@@ -22,6 +22,7 @@
     <ProjectReference Include="..\CreationalPatterns\AbstractFactory\AbstractFactory.csproj" />
     <ProjectReference Include="..\CreationalPatterns\Builder\Builder.csproj" />
     <ProjectReference Include="..\CreationalPatterns\FactoryMethod\FactoryMethod.csproj" />
+    <ProjectReference Include="..\CreationalPatterns\Prototype\Prototype.csproj" />
     <ProjectReference Include="..\CreationalPatterns\Singleton\Singleton.csproj" />
     <ProjectReference Include="..\StructuralPatterns\Adapter\Adapter.csproj" />
     <ProjectReference Include="..\StructuralPatterns\Bridge\Bridge.csproj" />

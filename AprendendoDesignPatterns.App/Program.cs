@@ -14,6 +14,7 @@ using Iterator;
 using Mediator;
 using Memento;
 using Observer;
+using Prototype;
 using Proxy;
 using Singleton;
 using State;
@@ -65,8 +66,10 @@ using Visitor;
 
 //ExecucaoIterator.ExecutarUseCase();
 
-ExecucaoComposite.ExecutarCaixaProdutoUseCase();
+//ExecucaoComposite.ExecutarCaixaProdutoUseCase();
 
 //ExecucaoProxy.ExecutarExemploUseCase();
 
 //ExecucaoMediator.ExecutarCalculadoraUseCase();
+
+ExecucaoPrototype.ExecutarCarroUseCase();
